@@ -389,7 +389,7 @@ a:hover {
   background: var(--color-background-card);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 
-  opacity: 0;
+  opacity: 1;
   transform: translateY(30px);
   transition: opacity 0.4s ease-out, transform 0.4s ease-out;
 }
@@ -420,7 +420,7 @@ a:hover {
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 
 /* JS Animation - initial state (FAST TRANSITION) */
-  opacity: 0;
+  opacity: 1;
   transform: translateY(30px);
   transition: opacity 0.4s ease-out, transform 0.4s ease-out,
     box-shadow 0.3s ease;
@@ -550,7 +550,7 @@ a:hover {
   display: flex;
   flex-direction: column;
 
-  opacity: 0;
+  opacity: 1;
   transform: translateY(30px);
   transition: opacity 0.4s ease-out, transform 0.4s ease-out,
     box-shadow 0.3s ease;
@@ -1116,7 +1116,7 @@ hr {
  /* JS Animation - initial state (FAST TRANSITION) */
   opacity: 0;
   transform: translateY(30px);
-  transition: opacity 0.4s ease-out, transform 0.4s ease-out,
+  transition: opacity 0.2s ease-out, transform 0.2s ease-out,
     box-shadow 0.3s ease;
 }
 
@@ -1206,9 +1206,9 @@ hr {
 .testimonial__card,
 .section--photo,
 .service__item {
-  opacity: 0;
+  opacity: 1;
   transform: translateY(30px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out,
+  transition: opacity 0.2s ease-out, transform 0.2s ease-out,
     box-shadow 0.3s ease;
 }
 
